@@ -7,7 +7,7 @@ using DesignPatterns.Factory.NetworkUtilities;
 
 namespace DesignPatterns.Factory.NetworkFactory
 {
-    public class NewtworkFactory
+    public class NetworkFactory
     {
         public INetwork GetNetworkInstance(string type)
         {
